@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:layout_height="65dp"
+        android:layout_width="125dp"
+        android:text="创建会议"
+        android:layout_marginTop="50dp"
+        android:onClick="btn_create_onclick"
+        android:layout_gravity="center"
+        android:id="@+id/btn_chuangjianhuiyi"/>
+
+    <Button
+        android:id="@+id/btn_yudinghuiyi"
+        android:layout_width="125dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="预定会议" />
+
+    <Button
+        android:layout_height="65dp"
+        android:layout_width="125dp"
+        android:text=" 加入会议"
+        android:onClick="btn_join_onclick"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/btn_jiaruhuiyi"/>
+
+    <Button
+        android:layout_height="65dp"
+        android:layout_width="125dp"
+        android:text="查看历史会议"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/btn_chakanlishihuiyi"/>
+
+</LinearLayout>

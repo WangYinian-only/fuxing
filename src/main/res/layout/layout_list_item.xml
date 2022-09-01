@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingRight="15dp"
+    android:paddingLeft="15dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="15dp"
+    android:paddingLeft="15dp">
+
+   <com.example.fuxing.widget.RoundImageView
+       android:id="@+id/iv"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:scaleType="centerCrop"
+       android:background="@drawable/ic_launcher"
+       />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="此处添加文案"
+            android:layout_marginTop="8dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorGrayDark"/>
+        <ImageView
+            android:id="@+id/tv_content"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:text="青铜峡市"
+            android:layout_marginTop="8dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorGrayDark"/>
+    </LinearLayout>
+</LinearLayout>
+
+</LinearLayout>

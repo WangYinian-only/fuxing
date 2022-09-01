@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">福星会议</string>
+    <string name="login_text">用户登录</string>
+    <string name="checkbox_text">记住密码</string>
+    <string name="username_text">用 户:</string>
+    <string name="input_user_text">******</string>
+    <string name="key_text">密 码:</string>
+    <string name="input_key_text">******</string>
+    <string name="register_button">注册</string>
+    <string name="login_button">登录</string>
+    <string name="message1">账号或者密码不能为空</string>
+    <string name="message2">保存成功</string>
+    <string name="press_login_button1">欢迎登录！</string>
+    <string name="press_login_button2">登录失败！</string>
+    <string name="press_register_button">欢迎注册！</string>
+    <string name="register_surface">用户注册</string>
+    <string name="identity_text">账 号:</string>
+    <string name="input_identity_text">******</string>
+    <string name="password_text">密 码:</string>
+    <string name="input_password_text"></string>
+    <string name="mailbox_text">邮 箱:</string>
+    <string name="input_mailbox_text"></string>
+    <string name="phonenumber_text">电 话:</string>
+    <string name="input_phonenumber_text"></string>
+    <string name="surface2_register_button">注册</string>
+    <string name="register_message">注册成功!</string>
+    <string name="surface2_message">不能为空!</string>
+    //为弹窗添加样式：
+
+    <style name="transparentFrameWindowStyle" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/photo_choose_bg</item>
+    </style>
+
+    <style name="main_menu_animstyle">
+        <item name="android:windowEnterAnimation">@anim/photo_dialog_in_anim</item>
+        <item name="android:windowExitAnimation">@anim/photo_dialog_out_anim</item>
+    </style>
+</resources>

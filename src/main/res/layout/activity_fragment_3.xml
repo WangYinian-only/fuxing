@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray3"
+    android:backgroundTint="@color/white">
+
+
+    <!--    头像-->
+    <LinearLayout
+        android:id="@+id/ll_portrait"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:paddingTop="80dp"
+        android:paddingBottom="20dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.example.fuxing.widget.RoundImageView
+                android:id="@+id/ri_portrait"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="用户名"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/gray3"
+                android:layout_gravity="top"
+                android:paddingLeft="20dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="个人姓名："/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="工作单位："/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="微信账号："/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="电子邮箱："/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="手机号码："/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <!--    编辑界面，此处可以写成一个ItemGroup上传至com上-->
+
+    <com.example.fuxing.widget.ItemGroup
+        android:id="@+id/ig_ziliao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:paddingLeft="20dp"
+        app:title="个人资料"/>
+    <com.example.fuxing.widget.ItemGroup
+        android:id="@+id/ig_xiaoxi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:paddingLeft="20dp"
+        app:title="我的消息"/>
+    <com.example.fuxing.widget.ItemGroup
+        android:id="@+id/ig_haoyou"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:paddingLeft="20dp"
+        app:title="我的好友"/>
+    <com.example.fuxing.widget.ItemGroup
+        android:id="@+id/ig_shezhi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:paddingLeft="20dp"
+        app:title="设置"/>
+
+
+
+</LinearLayout>
